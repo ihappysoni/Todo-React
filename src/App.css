@@ -1,3 +1,7 @@
+body{
+  border: red 2px solid ;
+  box-shadow: inset 0px 0px 10px .3vw red;
+}
 #body{
   margin: 1vw;
   text-align: center;
@@ -8,14 +12,33 @@
   align-items: center;
   flex-direction: column;
   min-height: 96vh;
+  box-shadow: inset 0px 0px 10vw 10px rgb(0, 0, 0);
+}
+#body:hover{
+  box-shadow: inset 0px 0px 100vw 100px rgb(0, 0, 0);
+  font-size: larger;
+}
+#taskList{
+  text-shadow: 1px 1px 1px rgb(255, 10, 10);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(255, 10, 10) 5px 5px;
+  padding: 1vw;
 }
 #bold{
   font-size: 5vw;
   font-weight: bolder;
 }
+#bold:hover{
+  font-size: 5vw;
+  font-weight: 500;
+}
 #light{
   font-size: 5vw;
   font-weight: 500;
+}
+#light:hover{
+    font-size: 5vw;
+    font-weight: bolder;
 }
 #inp{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,6 +49,8 @@
   background-color: white;
   border-radius: 5px;
   margin-top: 5vw;
+  z-index: 3;
+  box-shadow: 0px 0px 0px 20px white;
 }
 #inp:active{
   background-color: rgb(45, 45, 80);
@@ -45,8 +70,8 @@
   font-size: 38px;
   color: red;
   position: relative;
-  top: 1vw;
-  right: 3vw;
+  top: 17px;
+  right: 40px;
   cursor: pointer;
 }
 .child {
@@ -64,6 +89,7 @@
   font-weight: 500;
   box-sizing: border-box;
   padding: 20px;
+  overflow: hidden;
 }
 .child:hover{
   background-color: rgb(36, 36, 68);
@@ -73,7 +99,7 @@
   font-size: 38px;
   color: red;
   position: relative;
-  bottom: .6vw;
+  bottom: 12px;
   cursor: pointer;
 }
 #el-div{
@@ -89,13 +115,14 @@
   justify-content: center;
   background-color: black;
   color: white;
-  width: 20vw;
+  width: 23vw;
   margin: 2vw;
   background: linear-gradient(to right, rgb(50, 38, 98) 50%, rgb(0, 0, 0) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all .5s ease-out;
+  transition: all 1s ease-out;
 }
 #clr-btn:hover{
+  height: 36px;
   background-position: left bottom;
 }
