@@ -23,7 +23,7 @@ const Todo = () => {
   return (
     <div id="body">
       <div id="taskList">
-        <span id="bold">Task</span>
+        <span className="bold">T</span><span className="bold" id="a">a</span><span className="bold" >sk</span>
         <span id="light">List</span>
       </div>
       <div>

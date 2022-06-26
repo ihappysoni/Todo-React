@@ -15,7 +15,7 @@ body{
   box-shadow: inset 0px 0px 10vw 10px rgb(0, 0, 0);
 }
 #body:hover{
-  box-shadow: inset 0px 0px 100vw 100px rgb(0, 0, 0);
+  box-shadow: inset 0px 0px 100vw 100px rgba(0, 0, 0, 0.94);
   font-size: larger;
 }
 #taskList{
@@ -24,11 +24,14 @@ body{
   box-shadow: rgb(255, 10, 10) 5px 5px;
   padding: 1vw;
 }
-#bold{
+#a{
+  font-size: 6vw;
+}
+.bold{
   font-size: 5vw;
   font-weight: bolder;
 }
-#bold:hover{
+.bold:hover{
   font-size: 5vw;
   font-weight: 500;
 }
