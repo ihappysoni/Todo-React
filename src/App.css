@@ -15,7 +15,7 @@ body{
   box-shadow: inset 0px 0px 10vw 10px rgb(0, 0, 0);
 }
 #body:hover{
-  box-shadow: inset 0px 0px 100vw 100px rgba(0, 0, 0, 0.94);
+  box-shadow: inset 0px 0px 10vw 10px rgb(255, 255, 255);
   font-size: larger;
 }
 #taskList{

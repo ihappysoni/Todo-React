@@ -48,7 +48,9 @@ const Todo = () => {
         }
       </div>
       <div id="clr-btn" onClick={()=>setItems([])} ><span>Clear All</span><span className="material-icons">clear_all</span></div>
+      <div></div>
     </div>
+
   );
 };
 
